@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d7d7d7;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.container {
+    width: 645px;
+    height: 640px;
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: row;
+}
+
+.containerShashka {
+    position: relative;
+    top: -640px;
+    width: 645px;
+    height: 640px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.shashkaBlack {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #999;
+    top: 3px;
+    left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 25px;
+}
+
+.shashkaWhite {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #b7b4b4;
+    top: 3px;
+    left: 4px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    /* text-align: center; */
+}
+
+.shaxmatOne {
+    display: flex;
+    flex-direction: column;
+}
+
+.black {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+
+}
+
+.white {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+}
+
+.shaxmatBlack {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #da1e1e;
+}
